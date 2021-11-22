@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+:root{
+    --primaryColor:#3B4FE4; 
+    --secondryColor:#EF8354;
+    --subtextColor:#2F2525;
+    --whiteColor:#FBFBFB;
+    --blackColor:#000000;
+    --primaryFontStyle: 'Jost', sans-serif;
+    --secondaryFontStyle:'Montserrat', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid aqua; */
+}
+
+body{
+    font-family: 'Jost', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #022127;
+}
+
+.wrapper{
+    background-image: url('assets/banner-coworkzen.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.wrapper img{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    width: 1150px;
+    background-color: #80808074;
+    margin: auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px 10px 20px 10px;
+}
+
+.brand-logo{
+    display: flex;
+    align-items: center;
+}
+
+.brand-logo img{
+    align-items: center;
+    width: 160px;
+    margin-left: 10px;
+}
+
+.nav-links ul{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links ul li{
+    list-style: none;
+    margin: 0 18px 0 18px;
+}
+
+.nav-links ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: .9rem;
+    color: var(--whiteColor);
+    font-weight: 100;
+    transition: .4s;
+}
+
+.nav-links ul li a:hover{
+    color: var(--primaryColor);
+}
+
+.cta-call{
+    background: var(--secondryColor);
+    padding: .7rem 1.5rem;
+    margin-right: 10px;
+    transition: .4s;
+}
+
+#phone-icon{
+    margin-right: 10px;
+    color: var(--whiteColor);
+    font-size: .8rem;
+
+}
+
+.cta-call:hover{
+    transform: scale(1);
+}
+
+.cta-call a{
+    text-decoration: none;
+    color: var(--whiteColor);
+    font-weight: 100;
+    font-size: .9rem;
+}
+
+section{
+    width: 1150px;
+    margin: auto;
+}
+
+.hero-text{
+    margin-top: 200px;
+    padding: 50px 28px;
+    width: 650px;
+    background-color: rgba(155, 155, 155, 0.62);
+
+    backdrop-filter: blur(9px) saturate(200%);
+    -webkit-backdrop-filter: blur(9px) saturate(200%);
+
+}
+.hero-text p{
+    font-family: var(--primaryFontStyle);
+    color: var(--whiteColor);
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.hero-text h1{
+    font-family: var(--primaryFontStyle);
+    text-transform: uppercase;
+    color: var(--whiteColor);
+    font-size: 62px;
+    font-weight: 700;
+    line-height: .8;
+    margin-top: 19px;
+}
+
+.pointers{
+    width: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.pointer1{
+    display: flex;
+    align-items: center;
+}
+
+.pointer2{
+    display: flex;
+    align-items: center;
+}
+
+.icon-wrapper{
+    background: var(--whiteColor);
+    padding: 20px;
+}
+
+.icon-wrapper img{
+    width: 40px;
+}
+
+.pointer-text{
+    font-family: var(--primaryFontStyle);
+    color: var(--whiteColor);
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-left: 20px;
+}
+
+.hero-cta{
+    width: 650px;
+    margin-top: 40px;
+    display: flex;
+}
+
+.offering{
+    background: var(--primaryColor);
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    margin-right: 44px;
+    cursor: pointer;
+
+}
+
+
+.offering a{
+    text-decoration: none;
+    font-family: var(--secondaryFontStyle);
+    color: var(--whiteColor);
+    font-size: 14px;
+    font-weight: 200;
+    text-transform: capitalize;
+}
+
+.tour{
+    border: 1px solid var(--whiteColor);
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.tour a{
+    text-decoration: none;
+    font-family: var(--secondaryFontStyle);
+    color: var(--whiteColor);
+    font-size: 14px;
+    font-weight: 200;
+    text-transform: capitalize;
+}
+
+section{
+    padding-bottom: 175px;
+}
+
