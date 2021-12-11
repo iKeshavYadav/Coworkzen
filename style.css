@@ -15,7 +15,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid red; */
+    /* border: 1px solid aqua; */
 }
 
 body{
@@ -248,14 +248,13 @@ header{
 .icons-container1, .icons-container2{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-between;
     margin: 50px 0 50px;
-    width: 95%;
 }
 
 .icons-container1 img, .icons-container2 img{
     width: 80px;
-    margin-bottom: 16px;
+    padding: 15px 22px 15px 0;
 }
 
 .icons-container1 h1, .icons-container2 h1{
@@ -268,6 +267,7 @@ header{
 
 .item-set1, .item-set2{
     display: flex;
+    width: 50%;
 }
 
 .s2-left p{
@@ -278,4 +278,21 @@ header{
     font-weight: 400;
     margin-bottom: 16px;
 }
+
+.hs2-button{
+    background: var(--primaryColor);
+    border: none;
+    padding: 18px 30px;
+    color: var(--whiteColor);
+    font-family:var(--secondaryFontStyle);
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 300;
+}
+
+.hs2-button:hover{
+    cursor: pointer;
+}
+
+
 
