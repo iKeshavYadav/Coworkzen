@@ -285,9 +285,11 @@ header{
     padding: 18px 30px;
     color: var(--whiteColor);
     font-family:var(--secondaryFontStyle);
+    text-transform: capitalize;
     font-size: 16px;
     line-height: 16px;
     font-weight: 300;
+    transition: .3s;
 }
 
 .hs2-button:hover{
