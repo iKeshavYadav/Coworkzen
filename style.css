@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 :root{
@@ -15,7 +15,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid aqua;
+    /* border: 1px solid aqua; */
 }
 
 body{
@@ -413,6 +413,18 @@ header{
     background-size: cover;
 }
 
+.item5 button{
+    padding: 18px 30px;
+    background: var(--primaryColor);
+    border: none;
+    font-family: var(--secondaryFontStyle);
+    color: var(--whiteColor);
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 300;
+    transition: .3s;
+}
 
 
 
