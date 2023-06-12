@@ -301,27 +301,26 @@ header {
 .s2-right img {
   height: 646px;
   width: 470px;
-  margin-top: 100px;
 }
 
 .s2-right {
   position: relative;
-  display: flex;
+  /* display: flex; */
 }
 
 .contact-info img {
   width: 60px;
   height: 60px;
-  margin-bottom: 30px;
 }
 
 .contact-info {
+  width: 50%;
+  padding: 30px;
   position: absolute;
-  margin-left: 280px;
-  margin-top: -20px;
+  top: -100px;
+  right: 0;
   background-color: var(--primaryColor);
   color: var(--whiteColor);
-  padding: 30px;
 }
 
 .info-element {
@@ -368,31 +367,64 @@ header {
 
 /* Grid picture gallery */
 
-.image-container-s3 {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-
-  grid-gap: 16px;
-  /* height: 100vh; */
-}
-
-.item {
-  display: grid;
-  align-content: center;
-  justify-content: center;
-  background-color: #3b4fe4;
-  color: #fbfbfb;
-}
-
-.item1 {
-  grid-row: 1/3;
-}
-
-.item img {
-  height: 100%;
+.image-container-s3 img{
   width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding: 8px;
 }
+
+.image-container-s3 {
+  display: flex;
+}
+
+.img-gallery-left{
+  width: 44%;
+}
+.img-gallery-right{
+  width: 56%;
+  display: flex;
+  flex-direction: column;
+}
+
+.img-gallery-right-top{
+  display: flex;
+  height: 50%;
+}
+
+.img-gallery-right-bottom{
+  display: flex;
+  height: 50%;
+}
+
+.item4{
+  width: 70%;
+  background: var(--primaryColor);
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 8px;
+}
+
+.item4 .cta-heading{
+  color: var(--whiteColor) !important;
+  font-size: 32px;
+}
+
+.item4 button {
+  background: none;
+  border: 1px solid var(--whiteColor);
+  padding: 18px 30px;
+  color: var(--whiteColor);
+  font-family: var(--secondaryFontStyle);
+  text-transform: capitalize;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 300;
+}
+
 
 /* Section four | Amenities */
 
@@ -858,7 +890,7 @@ i{
 }
 
 .contact-info-text{
-  margin: 35px 0 35px;
+  margin-top: 20px;
 }
 
 .link-wrapper ul li {
@@ -890,7 +922,7 @@ input{
   font-size: medium;
 }
 
-button{
+.link-wrapper button{
   width: 100%;
   height: 50px;
   background-color: var(--secondryColor);
