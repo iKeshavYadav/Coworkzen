@@ -1,8 +1,8 @@
 1. Correct, Section two info card - Done
 2. Control CTA Buttons width - Done
+4. Amenities section, fix progress bar - Done
 3. Our offerings section GRID Fix
-4. Amenities section, fix progress bar
-5. Client logo's carousel integrate
+5. Client logo's carousel integrate 
 6. Founder quote section carousel integrate
 7. FEATURED US carousel integrate
 8. FAQ, Read more button align right fix
